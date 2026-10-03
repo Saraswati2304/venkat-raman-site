@@ -1,0 +1,12 @@
+:root{--ink:#F6F6F2;--plate:#ECEDE7;--rule:#D2D4CF;--paper:#141D2C;--muted:#556072;--brass:#8C1D2C;--brass-ink:#FFFFFF;--land:#C3CAD3;--ocean:#E2E6EA;--display:"EB Garamond",Garamond,serif;--body:"Public Sans",sans-serif;color-scheme:light}
+body{background:var(--ink);color:var(--paper);font-family:var(--body);margin:0;line-height:1.6}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+header.bar{background:var(--ink);border-bottom:1px solid var(--rule);padding:14px 0}
+.bar .wrap{display:flex;justify-content:space-between;align-items:center}
+.mark{font-family:var(--display);font-size:1.2rem;text-decoration:none;font-weight:600}
+nav{display:flex;gap:20px}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--paper)}
+.hero{padding:60px 0;background:var(--plate)}
+h1{font-family:var(--display);font-size:3.5rem;margin:10px 0}
+p{color:var(--muted)}
